@@ -1,5 +1,6 @@
-
 include boilerplate/generated-includes.mk
+
+OPERATOR_NAME=hypershift-logging-operator
 
 SHELL := /usr/bin/env bash
 CONTAINER_ENGINE ?= $(shell command -v podman 2>/dev/null || command -v docker 2>/dev/null)
